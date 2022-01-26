@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+figure {
+    border: thin white solid;
+    display: flex;
+    flex-flow: column;
+    padding: 50px;
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    object-fit: cover;
+    
+}
+
+
+
+figcaption {
+    background-color: white;
+    color: black;
+    font-family: cursive "lucida handwriting" ;
+    padding: 10px;
+    text-align: center;
+    text-size-adjust: auto;
+
+}
+
+#display_image{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+
+}
+
+input {
+    font-size: large;
+    font-family: cursive 'Lucida handwriting' ;
+    background-color: transparent;
+    border: 0px solid;
+    height: 100px;
+    width: 450px;
+    color: rgb(14, 13, 13);
+    text-align: left;
+    inline-size: 450px;
+    overflow-wrap: break-word ;
+    hyphens: manual;
+    text-size-adjust: auto;
+}
